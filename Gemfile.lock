@@ -1,0 +1,41 @@
+GEM
+  specs:
+    chronic (0.10.2)
+    color (1.7.1)
+    diff-lcs (1.2.5)
+    eventmachine (1.0.7)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    huey (2.1.0)
+      chronic (>= 0.9.0)
+      color (>= 1.4.1)
+      eventmachine (>= 1.0.0)
+      httparty (>= 0.9.0)
+      multi_json (~> 1.8)
+    json (1.8.2)
+    multi_json (1.11.0)
+    multi_xml (0.5.5)
+    rspec (3.2.0)
+      rspec-core (~> 3.2.0)
+      rspec-expectations (~> 3.2.0)
+      rspec-mocks (~> 3.2.0)
+    rspec-core (3.2.0)
+      rspec-support (~> 3.2.0)
+    rspec-expectations (3.2.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-hue (1.0.0)
+      huey (~> 2.0)
+      rspec
+    rspec-mocks (3.2.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-support (3.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rspec
+  rspec-hue
